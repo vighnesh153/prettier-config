@@ -6,7 +6,8 @@
   },
   "description": "Some base configuration for prettier",
   "devDependencies": {
-    "prettier": "^2.7.1"
+    "prettier": "^2.7.1",
+    "standard-version": "^9.5.0"
   },
   "files": [
     "index.json",
@@ -26,11 +27,19 @@
   "license": "MIT",
   "main": "index.json",
   "name": "@vighnesh153/prettier-config",
+  "peerDependencies": {
+    "prettier": ">= 2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
   "repository": {
     "type": "git",
     "url": "git@github.com:vighnesh153/prettier-config.git"
   },
   "scripts": {
+    "git:rebase": "git fetch && git rebase origin/main",
+    "release": "npm run git:rebase && standard-version && git push --follow-tags && npm publish",
     "test": "echo \"No tests configured\""
   },
   "version": "0.1.0"
