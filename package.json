@@ -1,0 +1,37 @@
+{
+  "author": {
+    "name": "Vighnesh Raut",
+    "email": "me@vighnesh153.com",
+    "url": "https://vighnesh153.com"
+  },
+  "description": "Some base configuration for prettier",
+  "devDependencies": {
+    "prettier": "^2.7.1"
+  },
+  "files": [
+    "index.json",
+    ".prettierignore"
+  ],
+  "keywords": [
+    "prettier",
+    "prettier-config",
+    "config",
+    "lint",
+    "format",
+    "formatting",
+    "linting",
+    "configuration",
+    "opinionated"
+  ],
+  "license": "MIT",
+  "main": "index.json",
+  "name": "@vighnesh153/prettier-config",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:vighnesh153/prettier-config.git"
+  },
+  "scripts": {
+    "test": "echo \"No tests configured\""
+  },
+  "version": "0.1.0"
+}
