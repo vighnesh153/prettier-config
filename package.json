@@ -42,5 +42,5 @@
     "release": "npm run git:rebase && standard-version && git push --follow-tags && npm publish",
     "test": "echo \"No tests configured\""
   },
-  "version": "1.0.1"
+  "version": "1.0.2"
 }
